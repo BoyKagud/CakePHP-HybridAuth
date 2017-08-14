@@ -1,6 +1,6 @@
 {
-    "name": "admad/cakephp-hybridauth",
-    "description": "A CakePHP plugin for using the HybridAuth social sign on library",
+    "name": "boykagud/cakephp-hybridauth",
+    "description": "Miniupdate",
     "type": "cakephp-plugin",
     "keywords": [
         "cakephp",
