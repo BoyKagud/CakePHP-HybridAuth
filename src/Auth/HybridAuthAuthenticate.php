@@ -311,6 +311,7 @@ class HybridAuthAuthenticate extends BaseAuthenticate
                 ->where([
                     $this->_userModel->aliasField($config['fields']['email']) => $providerProfile->email
                 ])
+                ->contain(['Admindetails'])
                 ->first();
         }
 
